@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface GCPlaceholderTextView : UITextView 
+@interface GCPlaceholderTextView : UITextView <UITextViewDelegate>
 
 @property(nonatomic, strong) NSString *placeholder;
 @property (nonatomic, strong) UIColor *placeholderColor;
